@@ -35,11 +35,23 @@
       } ],
       "startTime" : "10:00"
     }, {
-      "endTime" : "12:00",
+      "endTime" : "11:15",
       "sessions" : [ {
-        "items" : [ 102 ]
+        "items" : [ 104 ]
       } ],
       "startTime" : "11:00"
+    }, {
+      "endTime" : "11:30",
+      "sessions" : [ {
+        "items" : [ 106 ]
+      } ],
+      "startTime" : "11:15"
+    }, {
+      "endTime" : "11:45",
+      "sessions" : [ {
+        "items" : [ 107 ]
+      } ],
+      "startTime" : "11:30"
     }, {
       "endTime" : "13:00",
       "sessions" : [ {
@@ -49,15 +61,15 @@
     }, {
       "endTime" : "14:00",
       "sessions" : [ {
-        "items" : [ 104 ]
+        "items" : [ 102 ]
       } ],
       "startTime" : "13:00"
     }, {
-      "endTime" : "14:00",
+      "endTime" : "15:00",
       "sessions" : [ {
         "items" : [ 105 ]
       } ],
-      "startTime" : "13:00"
+      "startTime" : "14:00"
     } ],
     "tracks" : [ {
       "title" : "Expo hall"
@@ -120,6 +132,24 @@
       "speakers" : [ 4 ],
       "tags" : [ "Development" ],
       "title" : "From `The Janitor` to `Janitor`"
+    },
+    "106" : {
+      "complexity" : "Beginner",
+      "description" : "WebXR",
+      "id" : 106,
+      "language" : "English",
+      "speakers" : [ 4 ],
+      "tags" : [ "Web", "Lightning talk" ],
+      "title" : "Augmenting reality with A-Frame"
+    },
+    "107" : {
+      "complexity" : "Beginner",
+      "description" : "You come across something that just won't work as expected or keeps throwing errors at you. How do you turn this bad experience into something that is easy to understand for the developers to take action on and fix?",
+      "id" : 107,
+      "language" : "English",
+      "speakers" : [ 5 ],
+      "tags" : [ "Coding", "Lightning talk" ],
+      "title" : "Turning Bad News into a Good Bug Report "
     }
   },
   "speakers" : [ null, {
@@ -194,6 +224,15 @@
     "shortBio" : "Laurentian University Student in Computer Science  and Core Team Member for Janitor",
     "tags" : [ "Coding" ],
     "title" : "Student"
+  }, {
+    "bio" : "I am a WTM Lead/developer, fastpitch centre fielder and I wear pajamas to work!",
+    "company" : "GDG Sudbury/TimeHero",
+    "id" : 5,
+    "name" : "Em Bamsey",
+    "photoUrl" : "/images/people/em_bamsey.jpg",
+    "shortBio" : "I am a WTM Lead/developer, fastpitch centre fielder and I wear pajamas to work!",
+    "tags" : [ "Coding", "Web" ],
+    "title" : "Developer"
   } ],
   "team" : [ {
     "members" : [ {
