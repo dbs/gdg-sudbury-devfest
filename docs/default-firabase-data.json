@@ -88,7 +88,7 @@
     },
     "102" : {
       "complexity" : "Intermediate",
-      "description" : "Live coding demonstration showing how to build a similar web application using the Angular framework. Will include using Angular Material for UI components and Firebase or a public API to provide data source to demonstrate incorporating data. May include overview of hosting application (Github and Firebase) and implementing PWA components for the application.",
+      "description" : "Live coding demonstration showing how to build a simple web application using the Angular framework. Will include using Angular Material for UI components and Firebase or a public API to provide data source to demonstrate incorporating data. May include overview of hosting application (Github and Firebase) and implementing PWA components for the application.",
       "id" : 102,
       "language" : "English",
       "speakers" : [ 3 ],
