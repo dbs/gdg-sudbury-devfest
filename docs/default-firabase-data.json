@@ -219,7 +219,7 @@
     "featured" : true,
     "id" : 1,
     "name" : "Renée Higgins",
-    "photoUrl" : "/images/people/renee_higgins.jpg",
+    "photoUrl" : "/images/people/r_higgins.jpg",
     "shortBio" : "Web Developer/Open Data Lead for Greater Sudbury",
     "socials" : [ {
       "icon" : "twitter",
@@ -339,7 +339,7 @@
       } ],
       "shortBio" : "GDG Sudbury organizer and librarian of openness",
       "title" : "Associate Librarian"
-    } 
+    }
   ],
   "team" : [ {
     "members" : [ {
