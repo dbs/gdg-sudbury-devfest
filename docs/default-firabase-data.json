@@ -23,13 +23,19 @@
     "date" : "2017-11-04",
     "dateReadable" : "November 4",
     "timeslots" : [ {
+      "endTime" : "9:15",
+      "sessions" : [ {
+        "items" : [ 109 ]
+      } ],
+      "startTime" : "9:00"
+    }, {
       "endTime" : "10:00",
       "sessions" : [ {
         "items" : [ 100 ]
       } ],
-      "startTime" : "09:00"
+      "startTime" : "09:15"
     }, {
-      "endTime" : "11:00",
+      "endTime" : "10:45",
       "sessions" : [ {
         "items" : [ 101 ]
       } ],
@@ -47,29 +53,47 @@
       } ],
       "startTime" : "11:15"
     }, {
-      "endTime" : "11:45",
+      "endTime" : "12:15",
       "sessions" : [ {
-        "items" : [ 107 ]
+        "items" : [ 108 ]
       } ],
       "startTime" : "11:30"
     }, {
-      "endTime" : "13:00",
+      "endTime" : "12:45",
       "sessions" : [ {
         "items" : [ 103 ]
       } ],
-      "startTime" : "12:00"
+      "startTime" : "12:15"
     }, {
-      "endTime" : "14:00",
+      "endTime" : "13:30",
       "sessions" : [ {
         "items" : [ 102 ]
       } ],
-      "startTime" : "13:00"
+      "startTime" : "12:45"
     }, {
-      "endTime" : "15:00",
+      "endTime" : "13:45",
+      "sessions" : [ {
+        "items" : [ 107 ]
+      } ],
+      "startTime" : "13:30"
+    }, {
+      "endTime" : "14:00",
+      "sessions" : [ {
+        "items" : [ 111 ]
+      } ],
+      "startTime" : "13:45"
+    }, {
+      "endTime" : "14:45",
       "sessions" : [ {
         "items" : [ 105 ]
       } ],
       "startTime" : "14:00"
+    }, {
+      "endTime" : "16:00",
+      "sessions" : [ {
+        "items" : [ 110 ]
+      } ],
+      "startTime" : "14:45"
     } ],
     "tracks" : [ {
       "title" : "Expo hall"
@@ -82,12 +106,13 @@
   "sessions" : {
     "100" : {
       "complexity" : "Beginner",
-      "description" : "Opening keynote",
+      "description" : "For any development project to be great, to be the best, it must balance good design and best programming practices. So how do we achieve this when designers and developers don't speak the same language? This session will dive into a matrix for successful communication between designers and developers.",
       "id" : 100,
       "language" : "English",
       "presentation" : "https://google.com",
+      "speakers" : [ 6 ],
       "tags" : [ "Design" ],
-      "title" : "Design is awesome"
+      "title" : "Good Design vs. Best Practice"
     },
     "101" : {
       "complexity" : "Beginner",
@@ -122,7 +147,7 @@
       "language" : "English",
       "speakers" : [ 3 ],
       "tags" : [ "Web", "Lightning talk" ],
-      "title" : "Application State Management using the Redux Pattern"
+      "title" : "⚡ Application State Management using the Redux Pattern"
     },
     "105" : {
       "complexity" : "Intermediate",
@@ -140,7 +165,7 @@
       "language" : "English",
       "speakers" : [ 4 ],
       "tags" : [ "Web", "Lightning talk" ],
-      "title" : "Augmenting reality with A-Frame"
+      "title" : "⚡ Augmenting reality with A-Frame"
     },
     "107" : {
       "complexity" : "Beginner",
@@ -148,17 +173,53 @@
       "id" : 107,
       "language" : "English",
       "speakers" : [ 5 ],
-      "tags" : [ "Coding", "Lightning talk" ],
-      "title" : "Turning Bad News into a Good Bug Report "
+      "tags" : [ "Coding", "Lightning Talk" ],
+      "title" : "⚡ Turning Bad News into a Good Bug Report "
+    },
+    "108" : {
+      "complexity" : "Beginner",
+      "description" : "The City of Greater Sudbury website was recently redesigned. This is the inside story on how it happened!",
+      "id" : 108,
+      "speakers" : [ 1 ],
+      "tags" : [ "Design", "Web" ],
+      "title" : "Redesigning greatersudbury.ca"
+    },
+    "109" : {
+      "complexity" : "Beginner",
+      "description" : "Opening remarks",
+      "id" : 109,
+      "language" : "English",
+      "speakers" : [ 7 ],
+      "title" : "Opening remarks"
+    },
+    "110" : {
+      "complexity" : "Intermediate",
+      "description" : "Get hands-on with Janitor to tackle a real bug!",
+      "id" : 110,
+      "language" : "English",
+      "speakers" : [ 4 ],
+      "tags" : [ "Development" ],
+      "title" : "Hands-on with Janitor"
+    },
+    "111" : {
+      "complexity" : "Beginner",
+      "description" : "Not every solution has to be built from the ground up. Google Apps support the development of rapid solutions that are surprisingly flexible; this is the story of one such project.",
+      "id" : 111,
+      "language" : "English",
+      "speakers" : [ 7 ],
+      "tags" : [ "Coding", "Lightning Talk" ],
+      "title" : "⚡ Running a strike on Google Sheets"
     }
+
   },
   "speakers" : [ null, {
     "bio" : "Web Developer/Open Data Lead for Greater Sudbury; Director of Sudbury Code-Op; Instructor for Ladies Learning Code Sudbury",
     "company" : "City of Greater Sudbury",
     "country" : "Sudbury, Ontario",
-    "featured" : false,
+    "featured" : true,
     "id" : 1,
-    "name" : "Renee Higgins",
+    "name" : "Renée Higgins",
+    "photoUrl" : "/images/people/renee_higgins.jpg",
     "shortBio" : "Web Developer/Open Data Lead for Greater Sudbury",
     "socials" : [ {
       "icon" : "twitter",
@@ -168,11 +229,6 @@
     "tags" : [ "Design", "LLC" ],
     "title" : "Web Developer / Open Data Lead"
   }, {
-    "badges" : [ {
-      "description" : "Android Google Developer Expert",
-      "link" : "https://developers.google.com/experts/people/example.html",
-      "name" : "GDE"
-    } ],
     "bio" : "I am currently a Laurentian student in Computer Science specializing in Game Design. I have three years of web development experience working as a web developer for Science North.",
     "company" : "Science North",
     "companyLogo" : "/images/logos/science_north.png",
@@ -226,18 +282,71 @@
     "title" : "Student"
   }, {
     "bio" : "I am a WTM Lead/developer, fastpitch centre fielder and I wear pajamas to work!",
-    "company" : "GDG Sudbury/TimeHero",
+    "company" : "GDG Sudbury & TimeHero",
+    "country" : "Sudbury, Ontario",
+    "featured" : true,
     "id" : 5,
     "name" : "Em Bamsey",
     "photoUrl" : "/images/people/em_bamsey.jpg",
     "shortBio" : "I am a WTM Lead/developer, fastpitch centre fielder and I wear pajamas to work!",
     "tags" : [ "Coding", "Web" ],
     "title" : "Developer"
-  } ],
+  }, {
+    "bio" : "Deborah co-founded Fuel Multimedia in 2010. She came from a background in Print Journalism and Communications, where she worked in the fast-paced daily newspaper business for over five years.  During this time, she witnessed the evolution of storytelling platforms from print-based mediums towards an online eco-system. Seeing this change coming, she took the plunge to re-educate as a Web Designer and start a company that would focus on creating rich content and storytelling experiences told through the ever-changing language of the web. In her off hours, she loves photography and travel (insert cliché here).  She is also passionate about growing a business in Sudbury and assisting with the development of the technology sector in the Silicon Crater.",
+    "company" : "Fuel Multimedia",
+    "country" : "Sudbury, Ontario",
+    "featured" : true,
+    "id" : 6,
+    "name" : "Deb Sauvé",
+    "shortBio" : "Deborah is a partner and Creative Director at Fuel Multimedia.  She has a background in Print Journalism, Communications, and Web Design, which lead her to co-found an agency that focuses on content-driven web experiences.",
+    "socials" : [ {
+      "icon" : "website",
+      "link" : "https://fuelmultimedia.ca/",
+      "name" : "Web site"
+    }, {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/deborah-sauve-130a91a1/",
+      "name" : "LinkedIn"
+    }, {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/fuelmultimedia/",
+      "name" : "Twitter"
+    } ],
+    "tags" : [ "Design" ],
+    "title" : "Creative Director"
+  }, {
+    "badges" : [ {
+      "description" : "Google Mobile Sites certification",
+      "link" : "https://www.google.com/partners/#i_profile;idtf=100076628268175978162;",
+      "name" : "Mobile Sites"
+    } ],
+
+      "bio": "I am a GDG Sudbury organizer, Chair of the Library & Archives at Laurentian University, and an adopter of and contributor to many open source and open knowledge projects.",
+      "company" : "Laurentian University",
+      "country" : "Sudbury, Ontario",
+      "featured": false,
+      "id" : 7,
+      "name" : "Dan Scott",
+      "photoUrl" : "/images/people/dan_scott.jpg",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/denials",
+        "name" : "Twitter"
+      }, {
+        "icon" : "website",
+        "link" : "https://coffeecode.net/",
+        "name" : "Blog"
+      } ],
+      "shortBio" : "GDG Sudbury organizer and librarian of openness",
+      "title" : "Associate Librarian"
+    } 
+  ],
   "team" : [ {
     "members" : [ {
+      "bio" : "I am a WTM Lead/developer, fastpitch centre fielder and I wear pajamas to work!",
       "name" : "Em Bamsey",
-      "photoUrl" : "/images/people/embamsey.jpg",
+      "photoUrl" : "/images/people/em_bamsey.jpg",
+      "shortBio" : "I am a WTM Lead/developer, fastpitch centre fielder and I wear pajamas to work!",
       "socials" : [ {
         "icon" : "twitter",
         "link" : "https://twitter.com/embamsey",
@@ -247,6 +356,7 @@
         "link" : "https://plus.google.com/+EmBamsey",
         "name" : "Google+"
       } ],
+      "tags" : [ "Coding", "Web" ],
       "title" : "Organizer"
     }, {
       "name" : "David Pellegrini",
