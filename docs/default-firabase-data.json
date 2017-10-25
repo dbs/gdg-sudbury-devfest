@@ -298,6 +298,7 @@
     "featured" : true,
     "id" : 6,
     "name" : "Deb Sauvé",
+    "photoUrl" : "/images/people/deb_sauve.jpg",
     "shortBio" : "Deborah is a partner and Creative Director at Fuel Multimedia.  She has a background in Print Journalism, Communications, and Web Design, which lead her to co-found an agency that focuses on content-driven web experiences.",
     "socials" : [ {
       "icon" : "website",
