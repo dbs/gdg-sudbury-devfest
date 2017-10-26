@@ -71,17 +71,23 @@
       } ],
       "startTime" : "12:45"
     }, {
-      "endTime" : "13:45",
+      "endTime" : "13:40",
+      "sessions" : [ {
+        "items" : [ 112 ]
+      } ],
+      "startTime" : "13:30"
+    }, {
+      "endTime" : "13:50",
       "sessions" : [ {
         "items" : [ 107 ]
       } ],
-      "startTime" : "13:30"
+      "startTime" : "13:40"
     }, {
       "endTime" : "14:00",
       "sessions" : [ {
         "items" : [ 111 ]
       } ],
-      "startTime" : "13:45"
+      "startTime" : "13:50"
     }, {
       "endTime" : "14:45",
       "sessions" : [ {
@@ -95,12 +101,8 @@
       } ],
       "startTime" : "14:45"
     } ],
-    "tracks" : [ {
-      "title" : "Expo hall"
-    }, {
+    "tracks" : [ null, {
       "title" : "Conference hall"
-    }, {
-      "title" : "Workshops hall"
     } ]
   } ],
   "sessions" : {
@@ -109,7 +111,6 @@
       "description" : "For any development project to be great, to be the best, it must balance good design and best programming practices. So how do we achieve this when designers and developers don't speak the same language? This session will dive into a matrix for successful communication between designers and developers.",
       "id" : 100,
       "language" : "English",
-      "presentation" : "https://google.com",
       "speakers" : [ 6 ],
       "tags" : [ "Design" ],
       "title" : "Good Design vs. Best Practice"
@@ -209,6 +210,15 @@
       "speakers" : [ 7 ],
       "tags" : [ "Coding", "Lightning Talk" ],
       "title" : "⚡ Running a strike on Google Sheets"
+    },
+    "112" : {
+      "complexity" : "Beginner",
+      "description" : "With a wide range of pathways available, high school students are struggling to find the information they need to navigate their post-secondary education and career options. To address this, The Ministry of Advanced Education and Skills Development, in partnership with the Brookfield Institute for Innovation + Entrepreneurship, is launching the Student Pathways Challenge. The objective of this six-week competition is to answer the following:\nHow might we design a digital tool that would help high school students gain a better understanding of available career opportunities and the pathways to get there?\n\nhttps://studentpathwayschallenge.ca/\n\nParticipants can create teams or work independently to develop digital tools to tackle this problem. The teams with the most promising solutions will be awarded prizes from a pool of $50,000.\nWe already have significant interest from participants in Sudbury and are hoping to use this session as an opportunity to support them, as well as get the word out to other potential participants.",
+      "id" : 112,
+      "language" : "English",
+      "speakers" : [ 8 ],
+      "tags" : [ "Challenge", "Lightning Talk" ],
+      "title" : "⚡  Student Pathways Challenge Pep-Talk"
     }
 
   },
@@ -321,27 +331,43 @@
       "link" : "https://www.google.com/partners/#i_profile;idtf=100076628268175978162;",
       "name" : "Mobile Sites"
     } ],
-
-      "bio": "I am a GDG Sudbury organizer, Chair of the Library & Archives at Laurentian University, and an adopter of and contributor to many open source and open knowledge projects.",
-      "company" : "Laurentian University",
-      "country" : "Sudbury, Ontario",
-      "featured": false,
-      "id" : 7,
-      "name" : "Dan Scott",
-      "photoUrl" : "/images/people/dan_scott.jpg",
-      "socials" : [ {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/denials",
-        "name" : "Twitter"
-      }, {
-        "icon" : "website",
-        "link" : "https://coffeecode.net/",
-        "name" : "Blog"
-      } ],
-      "shortBio" : "GDG Sudbury organizer and librarian of openness",
-      "title" : "Associate Librarian"
-    }
-  ],
+    "bio" : "I am a GDG Sudbury organizer, Chair of the Library & Archives at Laurentian University, and an adopter of and contributor to many open source and open knowledge projects.",
+    "company" : "Laurentian University",
+    "country" : "Sudbury, Ontario",
+    "featured" : false,
+    "id" : 7,
+    "name" : "Dan Scott",
+    "photoUrl" : "/images/people/dan_scott.jpg",
+    "shortBio" : "GDG Sudbury organizer and librarian of openness",
+    "socials" : [ {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/denials",
+      "name" : "Twitter"
+    }, {
+      "icon" : "website",
+      "link" : "https://coffeecode.net/",
+      "name" : "Blog"
+    } ],
+    "title" : "Associate Librarian"
+  }, {
+    "bio" : "As Projects Officer, Vanessa has the opportunity to participate in the planning and implementation of a variety of policy engagements at the Brookfield Institute for Innovation + Entrepreneurship (BII+E). Before joining BII+E, Vanessa worked as a project manager and event coordinator with Ladies Learning Code and Canada Learning Code, travelling to every province and territory to raise digital literacy nationwide.",
+    "company" : "Brookfield Institute for Innovation + Entrepreneurship",
+    "country" : "Sudbury, Ontario",
+    "featured" : false,
+    "id" : 8,
+    "name" : "Vanessa Doucet-Roche",
+    "shortBio" : "Projects Officer at Brookfield Institute and previous Project Manager for Canada Learning Code, Vanessa's passion for tech education has brought her across Canada and around the world. She is excited to be returning to Sudbury with a new initiative.",
+    "socials" : [ {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/VDoucetRoche",
+      "name" : "Twitter"
+    }, {
+      "icon" : "linkedin",
+      "link" : "https://ca.linkedin.com/in/vanessa-doucet-roche",
+      "name" : "LinkedIn"
+    } ],
+    "title" : "Projects Officer"
+  } ],
   "team" : [ {
     "members" : [ {
       "bio" : "I am a WTM Lead/developer, fastpitch centre fielder and I wear pajamas to work!",
@@ -397,5 +423,12 @@
       "starts" : "Sep 1"
     } ],
     "url" : "https://www.meetup.com/GDG-Sudbury/events/242553086"
+  },
+  "users" : {
+    "bT5o2gRgQqciUkpn5AfAWYz0Dmx2" : {
+      "displayName" : "Andrew Gristey",
+      "email" : "andrew.gristey@gmail.com",
+      "photoURL" : "https://lh3.googleusercontent.com/-1MEYiOA0vbs/AAAAAAAAAAI/AAAAAAAAAB4/Qqj5eI8-8rc/photo.jpg"
+    }
   }
 }
