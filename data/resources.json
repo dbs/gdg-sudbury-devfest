@@ -14,7 +14,7 @@
   "signIn": "Sign in",
   "signOut": "Sign out",
   "footer": {
-    "blog": "Meetup"
+    "blog": " Meetup"
   },
   "footerRelBlock": [
     {
@@ -73,7 +73,7 @@
     "title": "What you need to know",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG Sudbury DevFest brings together local experts in Android, Web and Cloud technologies for a free day of sessions, workshops and showcases.",
+        "description": "GDG Sudbury DevFest brings together local experts in Web, design, and development for a free day of sessions, workshops and showcases.",
         "label": "Explore featured session",
         "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
       }
@@ -129,7 +129,7 @@
     "title": "Location"
   },
   "team": {
-    "description": "[Google Developers Group (GDG) Sudbury](http://gdgsudbury.ca) organizes meetings focused on software development efforts such as Android, HTML5, RDFa Lite and microdata, and other open source programming, open web, open data subjects. Meetings are free and open to the general public."
+    "description": "[Google Developers Group (GDG) Sudbury](http://gdgsudbury.ca) organizes meetings focused on development efforts such as Android, HTML5, RDFa Lite and microdata, and other open source programming, open web, open data subjects. Meetings are free and open to the general public."
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
@@ -161,7 +161,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "description": "<a href='https://gdgsudbury.ca'>GDG Sudbury</a> has been running developer-oriented events since 2012.",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
@@ -169,7 +169,7 @@
       },
       {
         "title": "What is GDG?",
-        "description": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
+        "description": "Google Developers Group (GDG) - is an open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
         "callToAction": {
           "label": "Read more",
           "link": "https://developers.google.com/groups/",

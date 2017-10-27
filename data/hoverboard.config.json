@@ -56,7 +56,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Sudbury's annual developer conference--all about the Web, Android, and Cloud Computing.",
+      "description": "Sudbury's annual developer conference--all about the Web, design, and development.",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/sudbury.jpg"
@@ -72,7 +72,7 @@
     },
     "speakers": {
       "title": "Speakers",
-      "description": "Learn from people who are building the future. Check back often as we add more speakers!",
+      "description": "Learn from people who are building the future!",
       "background": {
         "color": "#FFF"
       },
@@ -102,17 +102,17 @@
   },
   "location": {
     "short": "Sudbury, Ontario",
-    "address": "Laurentian University, 935 Ramsey Lake Road, Sudbury, Ontario",
+    "address": "School of Education Building, Athletic Bldg Rd, Sudbury, ON P3E 6H6",
     "pointer": {
-      "latitude": 46.4667745,
-      "longitude": -80.9764219,
+      "latitude": 46.4643212,
+      "longitude": -80.965540,
       "zoom": 14
     },
     "mapCenter": {
-      "latitude": 46.4593228,
-      "longitude": -80.9807939
+      "latitude": 46.463167,
+      "longitude": -80.9655261
     },
-    "description": "Laurentian University offers excellent facilities for learning and socializing"
+    "description": "Room SE-211 in the School of Education Building at Laurentian University offers excellent facilities for learning and socializing"
   },
   "mediaQueries": {
     "xs": {
