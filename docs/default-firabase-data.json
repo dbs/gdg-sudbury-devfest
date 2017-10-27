@@ -1,15 +1,25 @@
 {
   "partners" : [ {
     "logos" : [ {
+      "logoUrl" : "../images/logos/Mozilla_logo.svg",
+      "name" : "Mozilla",
+      "url" : "https://mozilla.org"
+    } ],
+    "title" : "Platinum sponsor"
+  }, {
+    "logos": [ {
       "logoUrl" : "../images/logos/google.svg",
       "name" : "Google",
       "url" : "https://www.google.ca/about/"
-    }, {
+    } ],
+    "title" : "Gold sponsor"
+  }, {
+    "logos": [ {
       "logoUrl" : "../images/logos/gdg-x.svg",
       "name" : "GDG[x]",
       "url" : "https://github.com/gdg-x"
     } ],
-    "title" : "General Partner"
+    "title" : "Web application"
   }, {
     "logos" : [ {
       "logoUrl" : "../images/logos/gdg-sudbury.svg",
