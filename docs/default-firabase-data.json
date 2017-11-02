@@ -366,6 +366,7 @@
     "featured" : false,
     "id" : 8,
     "name" : "Vanessa Doucet-Roche",
+    "photoUrl" : "/images/people/vanessa_doucet_roche.jpg",
     "shortBio" : "Projects Officer at Brookfield Institute and previous Project Manager for Canada Learning Code, Vanessa's passion for tech education has brought her across Canada and around the world. She is excited to be returning to Sudbury with a new initiative.",
     "socials" : [ {
       "icon" : "twitter",
