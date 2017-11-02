@@ -121,7 +121,7 @@
       "description" : "For any development project to be great, to be the best, it must balance good design and best programming practices. So how do we achieve this when designers and developers don't speak the same language? This session will dive into a matrix for successful communication between designers and developers.",
       "id" : 100,
       "language" : "English",
-      "speakers" : [ 6 ],
+      "speakers" : [ 6, 9 ],
       "tags" : [ "Design" ],
       "title" : "Good Design vs. Best Practice"
     },
@@ -377,6 +377,22 @@
       "name" : "LinkedIn"
     } ],
     "title" : "Projects Officer"
+  }, {
+    "bio" : "Eric has a  Bachelor of Computer Science from Laurentian University and joined Fuel Multimedia in 2015. Since then, he has programmed over 70 websites. Eric is passionate about making coding fun and more accessible to the general public. As part of that, he has donated his time with Canada Learning Code to teach women how to program WordPress themes.  In his spare time, he dabbles in video game designs, VR sculpting and 3D modelling.",
+    "company" : "Fuel Multimedia",
+    "country" : "Sudbury, Ontario",
+    "featured" : true,
+    "id" : 9,
+    "name" : "Eric Lee",
+    "photoUrl" : "/images/people/eric_lee.jpg",
+    "shortBio" : "Eric is the Lead Programmer at Fuel Multimedia",
+    "socials" : [ {
+      "icon" : "website",
+      "link" : "https://fuelmultimedia.ca/",
+      "name" : "Web site"
+    } ],
+    "tags" : [ "Coding" ],
+    "title" : "Lead Programmer"
   } ],
   "team" : [ {
     "members" : [ {
