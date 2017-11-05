@@ -7,14 +7,14 @@
     } ],
     "title" : "Platinum sponsor"
   }, {
-    "logos": [ {
+    "logos" : [ {
       "logoUrl" : "../images/logos/google.svg",
       "name" : "Google",
       "url" : "https://www.google.ca/about/"
     } ],
     "title" : "Gold sponsor"
   }, {
-    "logos": [ {
+    "logos" : [ {
       "logoUrl" : "../images/logos/gdg-x.svg",
       "name" : "GDG[x]",
       "url" : "https://github.com/gdg-x"
@@ -121,6 +121,7 @@
       "description" : "For any development project to be great, to be the best, it must balance good design and best programming practices. So how do we achieve this when designers and developers don't speak the same language? This session will dive into a matrix for successful communication between designers and developers.",
       "id" : 100,
       "language" : "English",
+      "presentation" : " https://docs.google.com/presentation/d/1R0VHbC2k2EguSZImztlLYuyfEHrboiWImYLCxMYJF_Q/edit?usp=sharing",
       "speakers" : [ 6, 9 ],
       "tags" : [ "Design" ],
       "title" : "Good Design vs. Best Practice"
@@ -130,6 +131,7 @@
       "description" : "Welcome to Bootstrap v4.0\n\nWhat is Bootstrap? \"Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.\"\n\nWhat this Code Lab will do:\nThis will be an introduction to the toolkit. We will be building a pretty basic webpage to understand the architecture\n\nThings you will need:\n- A laptop\n- The ability to connect to the internet to download files\n\nOptional:\n- A web server that you can connect to and are familiar with",
       "id" : 101,
       "language" : "English",
+      "presentation" : "http://thisiskait.com/workshops",
       "speakers" : [ 2 ],
       "tags" : [ "Web" ],
       "title" : "Intro to Bootstrap"
@@ -139,6 +141,7 @@
       "description" : "Live coding demonstration showing how to build a simple web application using the Angular framework. Will include using Angular Material for UI components and Firebase or a public API to provide data source to demonstrate incorporating data. May include overview of hosting application (Github and Firebase) and implementing PWA components for the application.",
       "id" : 102,
       "language" : "English",
+      "presentation" : "https://docs.google.com/presentation/d/1jyAkjrlGMBW2JtsM7bCFLhOS1GRaC0gtxzSCV4HkDis/",
       "speakers" : [ 3 ],
       "tags" : [ "Web" ],
       "title" : "Building Web Applications with Angular (4+)"
@@ -156,6 +159,7 @@
       "description" : "Overview of the Redux pattern and how it can be used to manage state in applications. Examples will show how to use libraries such as rxjs and ngRx to implement the Redux methodology in modern javascript applications.",
       "id" : 104,
       "language" : "English",
+      "presentation" : "https://docs.google.com/presentation/d/1McwZ5kKj7Pi3X243EaozN3fJEY6xjRRlmw-of5yRNoY/",
       "speakers" : [ 3 ],
       "tags" : [ "Web", "Lightning talk" ],
       "title" : "⚡ Application State Management using the Redux Pattern"
@@ -200,6 +204,7 @@
       "description" : "Opening remarks",
       "id" : 109,
       "language" : "English",
+      "presentation" : "https://goo.gl/mpx7dR",
       "speakers" : [ 7 ],
       "title" : "Opening remarks"
     },
@@ -217,6 +222,7 @@
       "description" : "Not every solution has to be built from the ground up. Google Apps support the development of rapid solutions that are surprisingly flexible; this is the story of one such project.",
       "id" : 111,
       "language" : "English",
+      "presentation" : "https://docs.google.com/presentation/d/e/2PACX-1vTO81fBEYgeEteU9dpvlSioQPfcsQNaA3T3clgRUE-XuPcN9oEjhliwSAWG4Rr63CeKk7i6-NSpmyhH/pub?start=false&loop=false&delayms=3000",
       "speakers" : [ 7 ],
       "tags" : [ "Coding", "Lightning Talk" ],
       "title" : "⚡ Running a strike on Google Sheets"
@@ -226,11 +232,11 @@
       "description" : "With a wide range of pathways available, high school students are struggling to find the information they need to navigate their post-secondary education and career options. To address this, The Ministry of Advanced Education and Skills Development, in partnership with the Brookfield Institute for Innovation + Entrepreneurship, is launching the Student Pathways Challenge. The objective of this six-week competition is to answer the following:\nHow might we design a digital tool that would help high school students gain a better understanding of available career opportunities and the pathways to get there?\n\nhttps://studentpathwayschallenge.ca/\n\nParticipants can create teams or work independently to develop digital tools to tackle this problem. The teams with the most promising solutions will be awarded prizes from a pool of $50,000.\nWe already have significant interest from participants in Sudbury and are hoping to use this session as an opportunity to support them, as well as get the word out to other potential participants.",
       "id" : 112,
       "language" : "English",
+      "presentation" : "https://drive.google.com/open?id=0BwsxDEszfX_nMlhtLVpGUHI1eWpsd0xmd09sby1WU0MtN05V",
       "speakers" : [ 8 ],
       "tags" : [ "Challenge", "Lightning Talk" ],
       "title" : "⚡  Student Pathways Challenge Pep-Talk"
     }
-
   },
   "speakers" : [ null, {
     "bio" : "Web Developer/Open Data Lead for Greater Sudbury; Director of Sudbury Code-Op; Instructor for Ladies Learning Code Sudbury",
@@ -450,12 +456,5 @@
       "starts" : "Sep 1"
     } ],
     "url" : "https://www.meetup.com/GDG-Sudbury/events/242553086"
-  },
-  "users" : {
-    "bT5o2gRgQqciUkpn5AfAWYz0Dmx2" : {
-      "displayName" : "Andrew Gristey",
-      "email" : "andrew.gristey@gmail.com",
-      "photoURL" : "https://lh3.googleusercontent.com/-1MEYiOA0vbs/AAAAAAAAAAI/AAAAAAAAAB4/Qqj5eI8-8rc/photo.jpg"
-    }
   }
 }
